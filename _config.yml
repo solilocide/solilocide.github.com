@@ -1,0 +1,21 @@
+markdown: kramdown
+title: TaalService Limburg
+email: demm@kaosx.us
+description: "Taalservice Limburg   ––   Voor al uw taalservices   ––   Snel, accuraat & betrokken"
+baseurl: ""
+url: "https://solilocide.github.com"
+kramdown:
+  input: GFM
+
+collections:
+  blog:
+    output: true
+  about:
+    output: true
+  diensten:
+    output: true
+
+include: ['_pages','.htaccess']
+relative_permalinks: false
+
+google_analytics: UA-87018317-1

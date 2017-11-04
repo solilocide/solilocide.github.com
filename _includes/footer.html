@@ -1,0 +1,61 @@
+<footer class="Footer">
+  <div class="container">
+    <div class="Footer-social">
+
+      <!--<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZHFD62TKTTWQN" target="blank"><img src="{{ site.baseurl }}/img/paypal.png" alt="PayPal - The safer, easier way to pay online!" title="Pay through PayPal" border="0" width="150px"></a> -->
+    </div>
+
+    <div class="Footer-nav">
+      <a href="{{ site.baseurl }}/">Home</a>
+      {% assign current = page.url | downcase | split: '/' %}
+      <a href="{{ site.baseurl }}/diensten" {% if current[1] == 'diensten' %}class="active"{% endif %} title="Info Taalservice">Diensten</a>
+      <a href="{{ site.baseurl }}/blog" {% if current[1] == 'blog' %}class="active"{% endif %} title="Taalservice Blog">Blog</a>
+      <a href="{{ site.baseurl }}/pages/contact" {% if current[1] == 'pages' %}class="active"{% endif %} title="Contact">Contact</a>
+    </div>
+
+    <div class="Footer-copyright">
+      <span class="pull-left">Copyright © 2013 - {{ 'now' | date: "%m/%Y" }} <a href="{{ site.baseurl }}/">Taalservice</a></span>
+      <span class="pull-right">
+        <a href="https://www.facebook.com/taalservicelimburg/" target="blank"><i class="fa fa-facebook-official" title="FaceBook"></i></a>
+        <a href="https://plus.google.com/u/0/communities/116669111554447085724" target="blank"><i class="fa fa-google-plus" title="GPlus"></i></a>
+        <a href="https://www.linkedin.com/in/frankvanderschuren/" target="blank"><i class="fa fa-linkedin-square" title="LinkedIn"></i></a>
+        <a href="https://www.youtube.com/channel/UCDpKvRJy8qCzjyHX01ZQnfA" target="blank"><i class="fa fa-youtube" title="YouTube"></i></a>
+        <a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss" title="RSS feed"></i></a>
+      </span>
+      <a href="#" class="crunchify-top"><i class="fa fa-chevron-up custom" ></i></a>
+    </div>
+  </div>
+</footer>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!-- Home page anchor jummps -->
+<script>
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+                return false;
+            }
+        }
+    });
+</script>

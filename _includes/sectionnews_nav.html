@@ -1,0 +1,35 @@
+{% comment %}
+Map grabs the blog sections, giving us an array of arrays. Join, flattens all
+the items to a comma delimited string. Split turns it into an array again.
+{% endcomment %}
+{% assign blog = site.data.blog | map: 'blog' | join: ',' | split: ',' %}
+
+{% comment %}
+Because this is built for every page, lets find where we are in the ordered
+document list by comparing url strings. Then if there's something previous or
+next, lets build a link to it.
+{% endcomment %}
+
+{% for document in blog %}
+  {% assign document_url = document | prepend:"/blog/" | append:"/" %}
+  
+  {% if document_url == "/blog//" %}
+    {% assign document_url = "/blog/" %}
+  {% endif %}
+
+  {% if document_url == page.url %}
+    <div class="Docs-sectionNav">
+      {% unless forloop.first %}
+        {% assign previous = forloop.index0 | minus: 1 %}
+        {% assign previous_page = blog[previous] | prepend:"/blog/" | append:"/" %}
+        <a href="{{ previous_page }}" class="Button">Back</a>
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next = forloop.index0 | plus: 1 %}
+        {% assign next_page = blog[next] | prepend:"/blog/" | append:"/" %}
+        <a href="{{ next_page }}" class="Button">Next</a>
+      {% endunless %}
+    </div>
+    {% break %}
+  {% endif %}
+{% endfor %}

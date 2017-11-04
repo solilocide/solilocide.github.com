@@ -1,0 +1,109 @@
+---
+layout: default
+class: home
+---
+<header class="Intro">
+  <div class="Intro-brand">
+    <object data="img/taal_header.png">
+      <img src="img/fla_logo.png" alt="Taal" width="300px">
+    </object>
+    <!--<span class="animated fadeIn">
+        <span class="Intro-beta">Taalservice Limburg</span>
+    </span> -->
+  </div>
+
+  <div class="animated fadeIn">
+    
+    <h2>Voor al uw taalservices</h2>
+    <p>Snel, accuraat & betrokken</p>
+    <!--<div id="typed-strings">
+        <p>^1000 indepe</p>
+        <p><strong>Snel, accuraat & betrokken</strong></p>
+    </div> -->
+    <span id="typed"></span>
+    <br>
+    Taalservice Limburg
+    <div id="typed2-strings">
+        <p>^2500 <strong>vertaalt, reviseert & transcribeert</strong></p>
+    </div>
+    <span id="typed2"></span>
+
+    <div class="Intro-actions">
+      <a href="{{ site.baseurl }}#builds" class="Button">Video</a>
+      <a href="{{ site.baseurl }}#waarom" class="Button">Waarom?</a>
+      <a href="{{ site.baseurl }}#mail" class="Button">Contact</a>
+    </div>
+  </div>
+</header>
+
+<div class="animated fadeUp">
+  <figure class="Home-screenshot">
+    <!--<img src="{{ site.baseurl }}/img/screenshot_1.png" alt="" width="1151"> -->
+  </figure>
+
+  <div class="Features" id="builds">
+    <!-- <div class="Carousel">
+    <marquee behavior="scroll" direction="left">
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">KDE and Qt focused</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">All is built for best integration with KDE and Qt</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Elegant Simplicity</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Simple goals, independent decisions bring the power of Plasma 5 to the forefront</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Splitting of packages is kept to a minimum</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Primary focus on packaging</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Using the powerful pacman as package manager</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Repository layout is simple</div>
+      </div>
+      <div class="CarouselItem">
+        <div class="CarouselItem-label">Every package in every repository is build by and for KaOS</div>
+      </div>
+      </marquee>
+    </div> -->
+    <div class="Features-text">
+        <i class="fa fa-quote-left"></i><b>Mijn motto is: ik doe wat ik zeg en ik zeg wat ik doe</b> <i class="fa fa-quote-right"></i></code>
+    </div>
+    
+    <iframe src='https://fast.wistia.net/embed/iframe/od3608lg8g?version=v1&videoHeight=360&videoWidth=640' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen name="Film"></iframe>
+    <!--<p><a href="http://kaosx.tk/packages/mirrors.php" class="Button">Button</a></p> -->
+    
+  </div>
+
+  {% include screens.html %}
+  
+  {% include actions.html %}
+  
+  {% include home_sponsors.html %}
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- typing -->
+<script src="js/typed.js"></script>
+<script>
+  $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings')
+        });
+    });
+</script>
+<script>
+  $(function(){
+        $("#typed2").typed({
+            stringsElement: $('#typed2-strings')
+        });
+    });
+</script>

@@ -1,0 +1,29 @@
+<div class="fixed">
+<div class="social_header">
+    <a href="https://www.facebook.com/taalservicelimburg/" target="blank"><i class="fa fa-facebook-official" title="FaceBook"></i></a>
+    <a href="https://plus.google.com/u/0/communities/116669111554447085724" target="blank"><i class="fa fa-google-plus" title="GPlus"></i></a>
+    <a href="https://www.linkedin.com/in/frankvanderschuren/" target="blank"><i class="fa fa-linkedin-square" title="LinkedIn"></i></a>
+    <a href="https://www.youtube.com/channel/UCDpKvRJy8qCzjyHX01ZQnfA" target="blank"><i class="fa fa-youtube" title="YouTube"></i></a>
+    <a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss" title="RSS feed"></i></a>
+</div>
+    
+<header class="Header">
+  <div class="container" id="header_wrap">
+    <h1 class="Header-brand">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/taal_logo.png" alt="{{ site.title }}" width="80">
+      </a>
+    </h1>
+    
+    {% assign current = page.url | downcase | split: '/' %}
+    
+    <nav class="Header-nav">
+      <a href="{{ site.baseurl }}/" title="Taalservice Overview">Home</a>
+      <!-- <a href="{{ site.baseurl }}/about" {% if current[1] == 'pages' %}class="active"{% endif %} title="About">About</a> -->
+      <a href="{{ site.baseurl }}/diensten" {% if current[1] == 'about' %}class="active"{% endif %} title="Diensten Taalservice">Diensten</a>
+      <a href="{{ site.baseurl }}/blog" {% if current[1] == 'blog' %}class="active"{% endif %} title="Taalservice Blog">Blog</a>
+      <a href="{{ site.baseurl }}/pages/contact" {% if current[1] == 'pages' %}class="active"{% endif %} title="Contact">Contact</a>
+    </nav>
+  </div>
+</div>
+</header>
