@@ -2,8 +2,8 @@
 layout: diensten
 status: publish
 published: true
-title: Taalservice Limburg transcribeert
-permalink: /diensten/transcribeert/
+title: Taalservice Limburg coacht
+permalink: /diensten/coacht/
 date: '2017-03-26 20:51:34 -0400'
 date_gmt: '2017-03-26 20:51:34 -0400'
 categories: []
@@ -13,20 +13,19 @@ comments: []
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-Transcriberen? Gaan we moeilijk doen, meneer van der Schuren? Nee hoor, maar dat is nu eenmaal de gebruikelijke vakterm voor het omzetten van gesproken tekst in geschreven tekst. Heel eenvoudig dus, of nee …, toch niet. Het klinkt weliswaar simpel, maar in werkelijkheid is transcriberen een tijdrovende en specialistische bezigheid.
+Taal is voor iedereen belangrijk. Als u in een ander land gaat wonen of werken bijvoorbeeld, maar ook als u moeite heeft met uw moedertaal, met schrijven of lezen.
 
-U kunt kiezen uit verschillende gradaties; wilt u een globale transcriptie, zodat de algemene context duidelijk is? Of wilt u het gesprokene woordelijk op papier hebben, of zelfs letterlijk, dus inclusief woordherhalingen et cetera? Voor welke optie u ook kiest, bij Taalservice Limburg bent u aan het juiste adres voor een snelle, accurate en betrokken uitwerking van uw gesproken tekst.
+Taalservice Limburg helpt u bij het verbeteren van uw taalvaardigheid, of het nu gaat om spreken, lezen of schrijven, offline of online, individueel of in groepjes, alles is mogelijk. Bij mij bent u aan het juiste adres voor vakkundige hulp, op uw eigen niveau.
 
 #### Waarom?
 {: .offset}
 
-* U maakt regelmatig gebruik van filmpjes als promotie- of instructiemateriaal en u wilt deze graag van geschreven tekst voorzien, zodat nog meer mensen uw video bekijken.
-* Je nieuwe vlog loop al best wel lekker, maar je wilt je vlogs een extra boost geven, door er tekst onder te zetten, zodat ze nog populairder worden.
-* Je hebt geluidsopnames gemaakt voor je afstudeerscriptie en wilt de tekst ook graag op papier hebben.
+* U kent iemand in uw omgeving, die moeite heeft met lezen of schrijven. U moet bijvoorbeeld helpen bij het lezen van een brief van de belastingdienst, of bij het invullen van formulieren. U merkt dat die persoon het heel vervelend vindt altijd hulp te moeten vragen en u zoekt naar een oplossing.
+* U verhuist naar Nederland voor uw werk, maar u kunt niet meepraten met uw Nederlandse collega's tijdens de pauze. Ook op feestjes of als u uitgaat, mist u veel van de gesprekken. U besluit dat u graag beter Nederlands wilt leren.
 
 #### Herkenbaar?
 {: .offset}
 
-Hierboven staan slechts enkele situaties beschreven waarin een transcriptie erg handig is en belangrijke voordelen oplevert. 
+Hierboven staan slechts enkele voorbeelden van situaties waarin mensen graag beter Nederlands willen leren. Een vakkundige taalcoach helpt hierbij. 
 
 Neem contact op met Taalservice Limburg voor een vrijblijvende offerte.
