@@ -10,8 +10,6 @@ kramdown:
 collections:
   blog:
     output: true
-  about:
-    output: true
   diensten:
     output: true
 
