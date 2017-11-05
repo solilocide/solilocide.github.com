@@ -32,7 +32,7 @@ comments: []
     </div>
     <div class="form-group">
         <input value="Verstuur bericht!" class="form-control" type="submit">
-        <input type="hidden" name="_next" value="/pages/contact/kcp_submit/" />
+        <input type="hidden" name="_next" value="/pages/contact/submit/" />
     </div>
     <div>
         <input type="text" name="_gotcha" style="display:none" />
