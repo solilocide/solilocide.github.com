@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: De kunst van het vertalen
-permalink: /blog/2017/april/
+permalink: /blog/2017/november/
 date: '2017-11-05 12:23:31 -0500'
 date_gmt: '2017-11-05 12:23:31 -0500'
 ---
