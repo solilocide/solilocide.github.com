@@ -6,7 +6,9 @@ date: '2017-03-25 01:23:31 -0500'
 date_gmt: '2017-03-25 01:23:31 -0500'
 ---
 Nederland telt maar liefst 1,3 miljoen laaggeletterden; mensen die onvoldoende kunnen lezen of schrijven. Deze mensen hebben bijvoorbeeld problemen met het invullen van formulieren, het lezen van bijsluiters of met het omgaan met computers. Of ze durven hun kinderen of kleinkinderen niet voor te lezen. Een behoorlijk struikelblok dus om in het dagelijks leven goed te functioneren.
- 
+
+![laagletterigheid-probleem](/img/2017/laagletterigheid-probleem.jpg){: .news-img-left}
+
 Meer dan 10% van de Nederlandse bevolking is laaggeletterd. Bij mensen met Nederlands als moedertaal is lezen en schrijven vaak het probleem, terwijl bij mensen van allochtone afkomst ook vaak een beperkte woordenschat een grote rol spreekt. 
  
 Tot enkele jaren geleden stond laaggeletterdheid in Nederland niet op de kaart als maatschappelijk probleem. Gelukkig zijn er tegenwoordig in Nederland wel veel initiatieven om dit probleem aan te pakken. 

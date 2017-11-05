@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: De kunst van het vertalen
+title: Nieuw Blog
 permalink: /blog/2017/november/
-date: '2017-11-05 12:23:31 -0500'
-date_gmt: '2017-11-05 12:23:31 -0500'
+date: '2017-11-04 12:23:31 -0500'
+date_gmt: '2017-11-04 12:23:31 -0500'
 ---
 Vorige week verscheen er een nieuwe vertaling van het literaire meesterwerk Anna Karenina van Tolstoi uit 1877. Deze vertaling door Hans Boland mag op zijn minst eigenzinnig worden genoemd. De vertaler heeft gekozen voor een eigengereide aanpak waardoor je soms vergeet dat het hier om een negentiende-eeuwse roman gaat.
 
