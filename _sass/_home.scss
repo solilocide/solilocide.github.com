@@ -213,12 +213,16 @@
   font-family: 'Raleway';
 }
 .KCP-text {
-  font-size: 20px;
+  font-size: 16px;
   color: #514335 !important;
   max-width: 620px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
+}
+
+.KCP-actions {
+  margin-top: 40px;
 }
 
 .KCP-sponsors {
@@ -255,14 +259,6 @@
   font-size: 16px;
   margin: 0;
   font-family: 'Raleway';
-}
-.KCP-text {
-  font-size: 16px;
-  color: #514335;
-  max-width: 620px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
 }
 
 @include respond-to(handhelds) {
