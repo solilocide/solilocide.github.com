@@ -10,8 +10,6 @@ categories: []
 tags: []
 comments: []
 ---
-* This will become a table of contents (this text will be scraped).
-{:toc}
 
 Taal is voor iedereen belangrijk. Als u in een ander land gaat wonen of werken bijvoorbeeld, maar ook als u moeite heeft met uw moedertaal, met schrijven of lezen.
 
