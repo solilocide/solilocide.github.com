@@ -10,8 +10,6 @@ categories: []
 tags: []
 comments: []
 ---
-* This will become a table of contents (this text will be scraped).
-{:toc}
 
 Met mijn passie voor taal ga ik het liefst aan de slag met commerciële teksten die ik vertaal vanuit het Engels naar het Nederlands. Maar ook voor andere onderwerpen kunt u bij mij terecht. Bovendien kan ik u, via mijn uitgebreide netwerk, ook voor andere taalcombinaties een goede oplossing aanbieden.
 
