@@ -14,23 +14,24 @@ class: home
 
   <div class="animated fadeIn">
     
-    <h2>Voor al uw taalservices</h2>
-    <p>Snel, accuraat & betrokken</p>
+    <h2>Voor al uw taalprojecten</h2>
+    <p>Efficiënt, accuraat & betrokken</p>
     <!--<div id="typed-strings">
         <p>^1000 indepe</p>
         <p><strong>Snel, accuraat & betrokken</strong></p>
     </div> -->
     <span id="typed"></span>
     <br>
-    Taalservice Limburg
+    Taalservice Limburg voor
     <div id="typed2-strings">
-        <p>^2500 <strong>vertaalt & coacht</strong></p>
+        <p>^2000 <strong>lesgeven & coachen</strong> ^1300</p>
+        <p><strong>vertalen</strong></p>
     </div>
     <span id="typed2"></span>
 
     <div class="Intro-actions">
-      <a href="{{ site.baseurl }}#builds" class="Button">Video</a>
-      <a href="{{ site.baseurl }}#waarom" class="Button">Waarom?</a>
+      <a href="{{ site.baseurl }}#coaching" class="Button">Lesgeven</a>
+      <a href="{{ site.baseurl }}#vertalen" class="Button">Vertalen</a>
       <a href="{{ site.baseurl }}#mail" class="Button">Social Info</a>
     </div>
   </div>
@@ -47,13 +48,14 @@ class: home
         <i class="fa fa-quote-left"></i><b>Mijn motto is: ik doe wat ik zeg en ik zeg wat ik doe</b> <i class="fa fa-quote-right"></i></code>
     </div>
     
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/qo4WUmB60mU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--<iframe width="640" height="360" src="https://www.youtube.com/embed/qo4WUmB60mU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <img src="{{ site.baseurl }}/img/frank.jpg" alt="" width="450">
     
   </div>
 
-  {% include screens.html %}
+  {% include coaching.html %}
   
-  {% include actions.html %}
+  {% include vertalen.html %}
   
   {% include home_sponsors.html %}
 </div>
