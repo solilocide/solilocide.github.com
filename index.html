@@ -24,7 +24,7 @@ class: home
     <br>
     Taalservice Limburg voor
     <div id="typed2-strings">
-        <p>^2000 <strong>lesgeven & coachen</strong> ^1300</p>
+        <p>^1300 <strong>lesgeven & coachen</strong> ^1300</p>
         <p><strong>vertalen</strong></p>
     </div>
     <span id="typed2"></span>
@@ -32,7 +32,7 @@ class: home
     <div class="Intro-actions">
       <a href="{{ site.baseurl }}#coaching" class="Button">Lesgeven</a>
       <a href="{{ site.baseurl }}#vertalen" class="Button">Vertalen</a>
-      <a href="{{ site.baseurl }}#mail" class="Button">Social Info</a>
+      <a href="{{ site.baseurl }}#mail" class="Button">Social Media</a>
     </div>
   </div>
 </header>
@@ -74,7 +74,9 @@ class: home
 <script>
   $(function(){
         $("#typed2").typed({
-            stringsElement: $('#typed2-strings')
+            stringsElement: $('#typed2-strings'),
+            fadeOut: true,
+            loop: true
         });
     });
 </script>
