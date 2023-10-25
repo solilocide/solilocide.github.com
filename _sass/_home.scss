@@ -329,4 +329,15 @@
     padding: 0;
   }
 }
-
+.cert {
+  float: left;
+  margin-left: 20%;
+  margin-right: -35%
+}
+@include respond-to(tablets) {
+  .cert {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
